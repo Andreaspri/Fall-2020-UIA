@@ -25,7 +25,7 @@ def graf(x,y,oppgave_nr,funksjon,count):
         plt.ylabel("y - akse")
         plt.grid()
         plt.legend()
-        plt.savefig(f"C:\\Users\\Andreas\\Desktop\\matte_grafer\\{oppgave_nr}")
+        plt.savefig(oppgave_nr)
         plt.close()
 
 
