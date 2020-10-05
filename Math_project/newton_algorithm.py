@@ -16,11 +16,11 @@ def newton(function,x):
         if count == 1000: 
             print("There's no real answer")
             return 0
-        count+=1
         if x0!=0: x=x0
         if eval(der_fx)==0: 
             print('The algorithm is dividing by zero, pick another x')
             return 0
+        count+=1
         x0 = x-(eval(function)/eval(der_fx))
         print('{0}, {1:.12f}, {2:.12f}, {3:.12f}'.format(count,float(x0),float(abs(eval(function)/eval(der_fx))),float(abs(eval(function)/eval(der_fx)/x))))
     return 0
