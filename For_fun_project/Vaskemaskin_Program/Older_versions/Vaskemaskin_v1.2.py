@@ -116,10 +116,10 @@ def open_webpage_and_run():
         click_norge.click()
         brukernavn = driver.find_element_by_xpath('//*[@id="div1"]/form/div/div[2]/div[2]/div[2]/div/div/input')
         brukernavn.click()
-        brukernavn.send_keys("AASQAAIAAAAACQTCQAB")
+        brukernavn.send_keys("My username")
         passord = driver.find_element_by_xpath('//*[@id="div1"]/form/div/div[2]/div[2]/div[3]/div[1]/div[1]/input')
         passord.click()
-        passord.send_keys("021703")
+        passord.send_keys("My password")
         login = driver.find_element_by_xpath('//*[@id="div1"]/form/div/div[2]/div[2]/div[4]/button')
         login.click()
         sleep(30)          # OG HER
