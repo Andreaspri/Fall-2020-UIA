@@ -88,7 +88,7 @@ oppgave_2d('np.sin(x)',0.0028,0,2*np.pi,'2_2')      # oppgave 2d_2
 oppgave_2a('(1-x)/(x+3)**2','2a_3',-2,2,)           # oppgave 2a_3
 oppgave_2b('(1-x)/(x+3)**2','2b_3',-2,2,)           # oppgave 2b_3
 oppgave_2c('(1-x)/(x+3)**2',0.032,0,2,'2c_3')       # oppgave 2c_3
-oppgave_2d('(1-x)/(x+3)**2',0.032,-2,2,'2_3')       # oppgave 2d_4
+oppgave_2d('(1-x)/(x+3)**2',0.032,-2,2,'2_3')       # oppgave 2d_3
 
 oppgave_2a('np.sqrt(1+x**2)','2a_4',0,10,)          # oppgave 2a_4
 oppgave_2b('np.sqrt(1+x**2)','2b_4',0,10,)          # oppgave 2b_4
